@@ -39,7 +39,7 @@ if app_mode == "Video Classification - Timesformer":
     st.title('Video Classification App - Timesformer')
 
     # User input for model
-    user_model_input = st.text_input("Enter a Hugging Face model identifier", "timesformer-base-finetuned-k400-finetuned-ucf101-subset")
+    user_model_input = st.text_input("Enter a Hugging Face model identifier", "giannisan/timesformer-base-finetuned-k400-finetuned-ucf101-subset")
 
     # Load model and processor
     try:
